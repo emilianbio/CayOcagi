@@ -1,0 +1,67 @@
+.headerDiv { /* baþlýk ayarlarý  */
+	display: none;
+	color: black;
+	clear: both;
+	text-align: left;
+	padding: 5px;
+	border: 1px solid black;
+	width: 94%;
+	height: 6em;
+	display: table;
+	border: 2px solid #a1a1a1;
+	padding: 10px 20px;
+	background: #dddddd;
+	border-radius: 25px;
+}
+
+.buyukYazi { /* Giriþ kutusu*/
+	font-size: 1.5em;
+}
+
+.buyukYazi2 { /* gelir gider giriþleri*/
+	font-size: 0.7em;
+	text-align: center;
+}
+
+.gelirGider { /* gelir gider giriþleri*/
+	font-size: 0.7em;
+	text-align: center;
+	display: inline-block;
+	width:30%;
+	height:75%;
+}
+
+.girisTextBox { /* Giriþ kutusu*/
+	font-size: 1.5em;
+	width: 9em;
+	border-radius: 0.5em;
+}
+
+.kutu { /* Giriþ kutusu*/
+	padding: 0em 0.1em 0em 0.1em;
+	border: solid 2px #89ACD6;
+	margin-top: 1em;
+	background-color: #d7ffda;
+	-moz-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	border-radius: 3em;
+	overflow: auto;
+}
+
+.tamEkranTus { /* Giriþ Tuþu  */
+	-moz-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	border-radius: 0.8em;
+	width: 90%;
+	font-size: 1.5em;
+	height: 3em;
+}
+
+#divLogin {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	height: 16em;
+	width: 30em;
+	margin-left: -15em;
+}

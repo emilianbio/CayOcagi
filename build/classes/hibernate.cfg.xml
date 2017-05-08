@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="forms.Birimler" />
+		<mapping class="forms.BuharaHesap" />
+		<mapping class="forms.BuyukSehir" />
+		<mapping class="forms.CayOcagi" />
+		<mapping class="forms.EgitimHesap" />
+		<mapping class="forms.KermesHesap" />
+		<mapping class="forms.Kullanici" />
+		<mapping class="forms.KurbanHesap" />
+		<mapping class="forms.MudurHesap" />
+		<mapping class="forms.NaksinHesap" />
+		<mapping class="forms.RoleTable" />
+		<mapping class="forms.SemerkandHesap" />
+		<mapping class="forms.SemersahHesap" />
+		<mapping class="forms.SosyalHesap" />
+		<mapping class="forms.SubeIl" />
+		<mapping class="forms.TicaretHesap" />
+	</session-factory>
+</hibernate-configuration>
